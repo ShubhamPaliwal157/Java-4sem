@@ -13,4 +13,4 @@
 | 09 | NetworkingDemo.java | InetAddress, URL/HttpURLConnection, TCP ServerSocket/Socket, UDP DatagramSocket |
 | 10 | JDBCDemo.java | JDBC connection, Statement/PreparedStatement, CRUD, batch inserts, transactions, ResultSetMetaData, DatabaseMetaData (runs with H2 in-memory DB) |
 
-To compile and run any file (e.g., file 1): javac 01_ClassesDemo.java && java ClassesDemo. For file 10, add the H2 jar: javac -cp h2.jar 10_JDBCDemo.java && java -cp .:h2.jar JDBCDemo.
+To compile and run any file (e.g., file 1): ``javac 01_ClassesDemo.java && java ClassesDemo``. For file 10, add the H2 jar: ``javac -cp h2.jar 10_JDBCDemo.java && java -cp .:h2.jar JDBCDemo``.
